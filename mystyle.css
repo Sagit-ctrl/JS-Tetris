@@ -1,0 +1,82 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("back.jpg");
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+    padding: 20px;
+    border: 4px solid red;
+    background-color: whitesmoke;
+}
+
+.container .mainboard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 3px;
+}
+
+.container .support {
+    display: block;
+}
+
+.contain {
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#score {
+    width: fit-content;
+    font-size: 30px;
+    margin: auto;
+    padding: 5px;
+}
+
+#alert {
+    width: fit-content;
+    font-size: 30px;
+    margin: auto;
+    padding: 5px;
+}
+
+.btn {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn button {
+    width: 40%;
+    margin: 5%;
+}
+
+.guide {
+    width: 100%;
+}
+
+.guide *{
+    width: fit-content;
+    word-wrap: break-word;
+}
+
+.guide p {
+    margin: auto;
+}
+
+.guide .link {
+    margin-top: 80px;
+}

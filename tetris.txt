@@ -1,0 +1,56 @@
+Bài toán:
+
+Kích thước: 20x10
+Kích thước thật: 23x10
+
+7 khối: L,J,O,T,S,Z,I
+Xoay theo chiều kim đồng hồ
+Không thể xoay nếu vướng vào khối khác hoặc khối đã xuống
+
+0,8s 1 khối rơi xuống 1 ô và bắt đầu canvas lại
+
+Ăn điểm theo hàng. ăn nhiều hàng nhiều điểm
+
+Thua khi khối mới ko hạ cánh được
+
+Hướng đi:
+
+HTML canvas cho giao diện
+
+Tính năng căn bản của 1 game:
+Điểm
+Độ lớn khung chứa
+Khối
+trạng thái hiện tại
+số khối hạ cánh
+di chuyển khối
+
+
+Sau khi tạo giao diện mỗi ô đều mang giá trị 0
+Vì thể nếu thay đổi giá trị của ô có thể xác định các khối
+Số 0: Chưa có block nào ở đây
+Số 1: Block thuộc một khối chữ L
+Số 2: Block thuộc một khối chữ J
+Số 3: Block thuộc một khối chữ O
+Số 4: Block thuộc một khối chữ T
+Số 5: Block thuộc một khối chữ S
+Số 6: Block thuộc một khối chữ Z
+Số 7: Block thuộc một khối chữ I
+
+Các khối đều sẽ :
+Rơi
+Sang trái, phải
+Xoay
+Có chiều rộng và chiều dài, góc quay hiện tại
+Màu
+=> tạo bằng mảng 2 chiều giống như board game
+
+phát hiện va chạm để thêm khối vào các khối đã hạ cánh cũng như thành board game
+có 4 th cần phát hiện va chạm:
+khối xuống
+khối sang trái phải
+khối xoay
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Tetris</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mainboard">
+            <canvas id="tetris-canvas" width="292" height="572"></canvas>
+        </div>
+        <div class="support">
+            <canvas id="hint" width="180" height="180"></canvas>
+            <div class="contain">
+                <p id="alert">Welcome</p>
+            </div>
+            <div class="contain">
+                <p id="score"></p>
+            </div>
+            <div class="btn">
+                <button id="start">Start</button>
+                <button id="pause">Pause</button>
+            </div>
+            <div class="guide">
+                <ul>
+                    <li>Up : Xoay khối</li>
+                    <li>Left : Sang trái</li>
+                    <li>Right : Sang phải</li>
+                    <li>Down : Xuống nhanh</li>
+                </ul>
+                <p class="link">Link Github <a href="https://github.com/Sagit-ctrl/tetris.git" target="_blank">Tại đây</a></p>
+                <p>Copyright by Sagit</p>
+            </div>
+        </div>
+    </div>
+    <script src="myJS.js"></script>
+
+</body>
+</html>
